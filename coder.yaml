@@ -3,9 +3,10 @@ coder:
     git:
       pre_commit:
         enable: false
-    size: 2Gi
+    size: 3Gi
     dind:
       enable: true
+      ram: 2Gi
   vscode:
     enable: true
 
