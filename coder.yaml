@@ -1,14 +1,16 @@
 coder:
   workspace:
+    image: hectorm/qemu-reactos:latest
     git:
       pre_commit:
         enable: false
-    size: 3Gi
+    size: 2Gi
     dind:
       enable: true
-      ram: 2Gi
+      memory: 2Gi
+      cpu: 1
   vscode:
-    enable: true
+    enable: false
 
     #
     # VSCode Extensions be to installed
