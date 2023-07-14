@@ -1,0 +1,17 @@
+coder:
+  workspace:
+    git:
+      pre_commit:
+        enable: false
+    size: 2Gi
+    dind:
+      enable: true
+  vscode:
+    enable: true
+
+    #
+    # VSCode Extensions be to installed
+    #
+    extensions:
+      - id: redhat.vscode-yaml          # Schema Validation in VSCode
+
