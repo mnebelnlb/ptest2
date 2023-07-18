@@ -6,9 +6,7 @@ coder:
         enable: false
     size: 2Gi
     dind:
-      enable: true
-      memory: 2Gi
-      cpu: 1
+      enable: false
   vscode:
     enable: false
 
